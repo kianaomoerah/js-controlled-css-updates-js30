@@ -7,6 +7,8 @@
 <body>
   <h2>Update CSS Variables with <span class='hl'>JS</span></h2>
 
+  <!-- each input has a custom created data attribute, which allows for sizing -->
+  <!-- dat set does not require any selector, it will take everything that has "data-" on an element and put it into a nice tidy element i.e. we could add data-name: "kiana", then the mouseover change will show this data-name in the console using console.log(this.dataset) -->
   <div class="controls">
     <label for="spacing">Spacing:</label>
     <input id="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
